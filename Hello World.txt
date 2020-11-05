@@ -1,1 +1,37 @@
 Hey
+
+commands:
+
+git init
+
+git add README.md
+
+git commit -m "Version2"
+
+git branch -M main
+
+git remote add origin https://github.com/DzenanP/Pruefung.git
+
+git push -u origin main
+
+git checkout -b 'myExamFeature'
+
+git add HelloWorld.txt
+
+git commit -m "Version2"
+
+git checkout -b 'integration'
+
+git add HelloWorld.txt
+
+git commit -m "Test erfolgreich"
+
+git checkout -b 'master'
+
+git push -u origin integration
+
+git push -u origin master
+
+git push -u origin myExamFeature
+
+----
