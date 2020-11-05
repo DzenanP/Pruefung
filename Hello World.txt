@@ -4,10 +4,6 @@ commands:
 
 git init
 
-git add README.md
-
-git commit -m "Version2"
-
 git branch -M main
 
 git remote add origin https://github.com/DzenanP/Pruefung.git
