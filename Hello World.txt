@@ -4,10 +4,6 @@ commands:
 
 git init
 
-git add README.md
-
-git commit -m "Version2"
-
 git branch -M main
 
 git remote add origin https://github.com/DzenanP/Pruefung.git
@@ -16,13 +12,13 @@ git push -u origin main
 
 git checkout -b 'myExamFeature'
 
-git add HelloWorld.txt
+git add Hello World.txt
 
 git commit -m "Version2"
 
 git checkout -b 'integration'
 
-git add HelloWorld.txt
+git add Hello World.txt
 
 git commit -m "Test erfolgreich"
 
